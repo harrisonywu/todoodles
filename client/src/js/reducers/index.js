@@ -5,7 +5,7 @@ const initialState = {
 }
 
 function rootReducer(state = initialState, action) {
-  if (action.type = ADD_TODO) {
+  if (action.type === ADD_TODO) {
     return Object.assign({}, state, {
       todos: state.todos.concat(action.payload)
     })
