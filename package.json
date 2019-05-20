@@ -1,0 +1,31 @@
+{
+  "name": "main-to-do-list",
+  "version": "1.0.0",
+  "description": "To Do List built w/ Reach and React Redux",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run react && npm run server",
+    "react": "webpack -p",
+    "react-dev": "webpack -d --watch",
+    "server": "node server/index.js",
+    "server-dev": "nodemon server/index.js"
+
+  },
+  "author": "Harrison Wu",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.0.6",
+    "morgan": "^1.9.1",
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2"
+  },
+  "dependencies": {
+    "express": "^4.17.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
