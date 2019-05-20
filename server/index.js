@@ -5,6 +5,6 @@ const port = process.env.PORT || 1235;
 
 app.use(morgan('dev'));
 
-app.use(express.static('public'))
+app.use(express.static('public'));
 
-app.listen(port, console.log(`listening on port ${port}`));
+app.listen(port, console.log(`listening on port ${port}!`));

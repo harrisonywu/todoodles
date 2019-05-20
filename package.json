@@ -9,7 +9,6 @@
     "react-dev": "webpack -d --watch",
     "server": "node server/index.js",
     "server-dev": "nodemon server/index.js"
-
   },
   "author": "Harrison Wu",
   "license": "ISC",
@@ -26,6 +25,9 @@
   "dependencies": {
     "express": "^4.17.0",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.0.3",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0"
   }
 }
